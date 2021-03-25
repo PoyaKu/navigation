@@ -7,12 +7,39 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
 <body>
+
   <div id="app"></div>
   <script>
     window.$docsify = {
-      //...
+      //Github 
+      repo: 'poyaku/poyaku.github.io',
+      // 加载 _navbar.md
+      loadNavbar: true,
+      //目录层级
+      maxLevel: 2,
+      //侧边栏logo
+      logo: '/images/logo.png',
+      //侧边栏标题
+      name: 'Golff Documentation',
+      //主题色
+      themeColor: '#6aac8c',
+      // default: '_blank'
+      externalLinkTarget: '_self', 
+      //search
+      search: 'auto', // 默认值
+      //封面
+      coverpage: true,
+      coverpage: ['/', '/zh-cn/'], //多封面
+
+      //顶部空间
+      topMargin: 200, // default: 0
+
+      //语言列表对应匹配
+      fallbackLanguages: ['zh-ch'],
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 </body>
 </html>
