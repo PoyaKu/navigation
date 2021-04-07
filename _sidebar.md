@@ -5,9 +5,9 @@
 
 * Golff Vault收益聚合器
 	* [关于Golff Vault收益聚合器](aboutVault)
-	* [Vault V1机枪池使用手册](VaultV1)
-	* [Vault V2机枪池使用手册](VaultV2)
-	* [Heco Vault机枪池使用手册](HecoVault)
+	* [Vault V1使用手册](VaultV1)
+	* [Vault V2使用手册](VaultV2)
+	* [Heco Vault使用手册](HecoVault)
 	* [FAQ常见问题](VaultFAQ)
 
 * Golff Lend借贷
