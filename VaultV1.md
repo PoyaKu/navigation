@@ -45,7 +45,6 @@ Golff Vault就是一个智能化的收益聚合器(Earn Collection), 基于自�
 ![image](/images/VaultV1/4.png)
 
 
-
 ## Vault V1收益分配
 Golff Vault池子中产生的各种加密货币的收益会在DEX中全部兑换成GOF，95%分配给资金投入者，1%为风险储备金，1%harvest，3%用于在二级市场回购GOF并进入Vault基金池（用途后续由社区投票决定）。风险储备金用于弥补因不可预见的风险而给Vault投资人带来的亏损。二级市场的回购会在DEX中进行，在回购前会公布主要进行回购操作的DEX。
 
