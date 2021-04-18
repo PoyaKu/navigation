@@ -1,4 +1,4 @@
-* [Home](https://golff.finance)
+* [Product](https://golff.finance)
 	* [ETH](https://app.golff.finance)
 	* [Heco](https://heco.golff.finance)
 
