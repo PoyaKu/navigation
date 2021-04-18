@@ -11,14 +11,12 @@
 	* [FAQ常见问题](VaultFAQ)
 
 * Golff Lend借贷
-	* [关于Golff Lend借贷](aboutLend)
 	* [Lend借贷使用手册](LendV1)
-	* [FAQ常见问题](LendFAQ)
+	* [Heco Lend使用手册](HecoLend)
 
 * Golff Farm矿池
 	* [关于Golff Farm矿池](aboutFarm)
 	* [GOF流动性挖矿教程](GOFFarm)
-	* [FAQ常见问题](FarmFAQ)
 
 * 各公链操作手册
 	* [Heco相关操作指南](Heco)

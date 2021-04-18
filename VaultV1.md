@@ -18,13 +18,13 @@ Golff Vault就是一个智能化的收益聚合器(Earn Collection), 基于自�
 1. 打开[官网](https://app.golff.finance/vault)，准备钱包和充足的代币，需准备一些ETH作为合约手续费
 2. 选择要参与质押的币种
 
-![image](/images/VaultV1/2.png)
+![image](images/VaultV1/2.png)
 
 3. 在左侧栏目内先进行钱包授权
 
 然后输入数量，点击“存入”（也可以一键点击“全部存入”），即可开启Gollf Vault挖矿，获得当前市场上的最佳收益
 
-![image](/images/VaultV1/3.png)
+![image](images/VaultV1/3.png)
 
 存入成功后，链上钱包中会收到对应数量的GToken，可以在以太坊区块浏览器上查看，或者在钱包中添加对应币种合约地址查看：
 
@@ -42,7 +42,7 @@ Golff Vault就是一个智能化的收益聚合器(Earn Collection), 基于自�
 
 5. 全网领取：任何用户都可以使用 Harvest 功能将Vault池内所有已经产生收益的部分从目标项目中进行领取，通过DEX自动转换成GOF，进入储备池，触发“全网领取”的收割者可获得池内GOF奖励的1%作为手续费补贴
 
-![image](/images/VaultV1/4.png)
+![image](images/VaultV1/4.png)
 
 
 ## Vault V1收益分配
@@ -50,4 +50,26 @@ Golff Vault池子中产生的各种加密货币的收益会在DEX中全部兑换
 
 收益的产生和分配全过程通过智能合约在链上实现，完全公开透明，接受全社区的监督。未来可以通过社区的投票治理去更改收益分配中的主要参数。
 
-![image](/images/VaultV1/5.png)
+![image](images/VaultV1/5.png)
+
+## 关于GToken
+
+#### 1.什么是GToken？
+
+GToken是GOF 核心业务机枪池（Vault）的权益Token。GToken承载了GOF 的核心业务价值，将投资者存入GOF Vault的普通Token转化为权益证明GToken。同时GToken符合ERC20标准，可用于与其他DeFi产品进行乐高式组合，生成更为复杂的DeFi衍生品。
+
+#### 2.GToken的机制是怎样的？
+
+机枪池（Vault）内每个币种均对应于一个专属GToken，如DAI机枪池产生的权益GToken为GDAI，代表了用户对机枪池内DAI资产的权益份额。DAI与GDAI 1:1 锚定。
+
+#### 3.具体产品设计上有哪些特性？
+
+用户资金进入机枪池后，会自动配置该币种下最优挖矿策略，在保证本金安全前提下进行最高收益挖矿。其利润的95%将通过DEX将收益兑换成GOF：
+- Harvest收割奖励 1%，用于补贴收割gas费用。频繁调用 Harvest 有助于减少收割时产生的滑点，增加机枪池用户整体收益。
+- 风险储备金为1%，风险储备金用于弥补因不可预见的风险而给Vault投资人带来的亏损。
+- 3%用于在二级市场回购GOF进入Vault基金池，用途后续由社区决定。二级市场的回购会在DEX中进行，在回购前会公布主要进行回购操作的DEX。
+
+#### 4.GToken的应用?
+
+- GToken将用户的机枪池权益从单一的充值与提现中解放出来，转化为一种可流通的资产。类似于Uniswap的LPT或者Balancer的BPT，可以在支持这些GToken的项目中使用。比如可以抵押GDAI进入Golff的Farm流动性矿池，来获得额外的GOF奖励。
+- 交易所可建立GToken相关的币币交易对，转由二级市场完成GToken的兑换。
