@@ -6,9 +6,9 @@ Golff Farm是通过流动性挖矿的方式去产生初始治理代币GOF，并�
 
 以下是Golff Farm第一期挖矿的激励分配方案（时间为5周，挖矿产出250万枚GOF）：
 
-![image](images/aboutFarm/1.png)
+![image](images/aboutFarm/1.png ':size=700')
 
-头矿的6个池子为：GXC、wETH、USDT、HT、YFII、LINK。6个池子各有每周83333枚GOF的挖矿产出，即一天11904枚GOF。
+头矿的6个池子为：GXC、wETH、USDT、HT、YFII、LINK。6个池子各有每周s83333枚GOF的挖矿产出，即一天11904枚GOF。
 
 以下是Golff Vault的产品使用步骤，更详细的包含UI界面的产品使用说明请参见“2.1 Farm 挖矿操作手册”
 

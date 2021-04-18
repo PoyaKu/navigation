@@ -1,5 +1,5 @@
-* [官网](https://golff.finance)
-	* [以太坊](https://app.golff.finance)
+* [Home](https://golff.finance)
+	* [ETH](https://app.golff.finance)
 	* [Heco](https://heco.golff.finance)
 
 * Language
